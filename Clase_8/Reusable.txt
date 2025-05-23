@@ -1,8 +1,0 @@
-Líneas reutilizables para Javascript
-
-* Importar prompt:
-const prompt = require("prompt-sync")({ sigint: true });
-
-* De string a número(float):
-let variable = parseFloat(prompt("Ingresar dato:"))
-
