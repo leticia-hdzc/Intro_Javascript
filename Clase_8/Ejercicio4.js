@@ -22,7 +22,7 @@ let respuesta = ''
 
 let modulo = numero % 2
 
-if (modulo = 0){
+if (modulo == 0){
     respuesta = 'El número es par ';
 } else {
     respuesta = 'El número es impar';
