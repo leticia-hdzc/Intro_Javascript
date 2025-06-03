@@ -5,12 +5,12 @@
 
 const prompt = require('prompt-sync')();
 
-const rango_minimo = 1
-const rango_maximo = 35
+const RANGO_MINIMO = 1
+const RANGO_MAXIMO = 35
 
 let numero_usuario = parseFloat(prompt("Ingrese un numero: "));
 
-if (numero_usuario >= rango_minimo && numero_usuario <= rango_maximo){
+if (numero_usuario >= RANGO_MINIMO && numero_usuario <= RANGO_MAXIMO){
     console.log("El número esta dentro del rango");
 }
 else{
